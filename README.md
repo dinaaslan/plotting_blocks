@@ -1,1 +1,5 @@
 # plotting_blocks
+In this assignment, I started with preparing the HTML and CSS codes provided in the assignment description.
+First, I added 20px padding to the .container to create spacing between the content and the edges. 
+To adjust the layout of the .side-nav and .main blocks, I used display:inline-block for both. This allowed them to sit next to each other horizontally instead of stacking on top of each other like the default block elements. 
+Then, I applied vertical-align: top to .main so it aligns with .side-nav instead of shifting downwards. For the .sub-content, I also applied display: inline-block so the cards can be next to each other. For spacing: Margin-right:20px on .side-nav to create space between the side bar and .main Margin-right:10px on .sub-content to create spacing between the smaller boxes Margin-bottom:10px on .sub-content to create space between it and #advertisement Margin-top:10px on #advertisement to replicate the provided example Padding:12px inside .main to make sure that the inner elements don't touch the edges 
